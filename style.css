@@ -1,38 +1,24 @@
 .btn-custom-extra{
-    /* Warna latar belakang ungu modern */
-    background: #6f42c1; 
-    /* Warna teks putih */
-    color: #ffffff; 
-    /* Ukuran teks dan ketebalan */
+    background: #6f42c1;     
+    color: #ffffff;     
     font-size: 16px;
-    font-weight: 600;
-    /* Jarak teks ke tepi tombol (atas-bawah, kiri-kanan) */
-    padding: 12px 30px; 
-    /* Menghilangkan garis tepi bawaan */
+    font-weight: 600;    
+    padding: 12px 30px;     
     border: none; 
-    /* Membuat sudut tombol melengkung */
     border-radius: 8px; 
-    /* Mengubah kursor menjadi tangan saat menyentuh tombol */
     cursor: pointer; 
-    /* Efek bayangan halus (glowing awal) */
     box-shadow: 0 0 10px rgba(111, 66, 193, 0.4); 
-    /* Membuat efek transisi animasi menjadi halus */
     transition: all 0.3s ease;
   }
 
   .btn-custom-extra:hover {
-  /* Mengubah warna ungu menjadi sedikit lebih terang */
     background: #8247e5; 
-    /* Membuat efek glowing menjadi sangat terang */
     box-shadow: 0 0 25px rgba(130, 71, 229, 0.8), 
                 0 0 10px rgba(130, 71, 229, 0.6);
-    /* Membuat tombol sedikit membesar saat disentuh */
     transform: translateY(-2px); 
   }
 
-  .btn-custom-extra:active {
-    /* Tombol sedikit turun ke bawah saat ditekan */
+  .btn-custom-extra:active {    
     transform: translateY(1px); 
-    /* Efek bersinar sedikit berkurang saat ditekan */
     box-shadow: 0 0 15px rgba(130, 71, 229, 0.6);
   }
