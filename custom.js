@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   ul.style.cssText= "margin:-25px auto 10px; width:100%;display: flex;justify-content: center;";
   ul.innerHTML= `
-    <li><a class="btn-custom-extra" href="https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=app.intra&amp;hl=en&amp;gl=US" rel="nofollow" target="_blank">ANTI NAWALA</a></li>
+    <li><a class="btn-custom-extra" href="https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=app.intra&amp;hl=en&amp;gl=US" rel="nofollow" margin-right:"5px" target="_blank">ANTI NAWALA</a></li>
     <li><a class="btn-custom-extra" href="/demo/slot-demo-pgs/" font-weight:bold;">SLOT DEMO PGSOFT</a></li>
   `;
 
