@@ -1,24 +1,24 @@
 .btn-custom-extra{
-    background: #6f42c1;     
-    color: #ffffff;     
+    background: #cc5592;
+    color: #ffffff;
     font-size: 16px;
-    font-weight: 600;    
-    padding: 12px 30px;     
-    border: none; 
-    border-radius: 8px; 
-    cursor: pointer; 
-    box-shadow: 0 0 10px rgba(111, 66, 193, 0.4); 
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(111, 66, 193, 0.4);
     transition: all 0.3s ease;
   }
 
   .btn-custom-extra:hover {
-    background: #8247e5; 
-    box-shadow: 0 0 25px rgba(130, 71, 229, 0.8), 
+    background: #8247e5;
+    box-shadow: 0 0 25px rgba(130, 71, 229, 0.8),
                 0 0 10px rgba(130, 71, 229, 0.6);
-    transform: translateY(-2px); 
+    transform: translateY(-2px);
   }
 
-  .btn-custom-extra:active {    
-    transform: translateY(1px); 
+  .btn-custom-extra:active {
+    transform: translateY(1px);
     box-shadow: 0 0 15px rgba(130, 71, 229, 0.6);
   }
